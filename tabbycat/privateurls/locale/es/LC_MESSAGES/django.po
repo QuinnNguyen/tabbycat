@@ -24,7 +24,7 @@ msgstr "Equipo"
 
 #: privateurls/apps.py:7
 msgid "Private URL Management"
-msgstr "Manejo de URLs Privadas"
+msgstr "Manejo de links Privados"
 
 #: privateurls/models.py:12
 msgid "ballot"
@@ -402,16 +402,15 @@ msgid ""
 msgstr ""
 "Hola %(name)s,\n"
 "\n"
-"En el %(tournament)s, estamos usando un sistema en linea de retroalimentación de jueces. Puedes cargar tu feedback en la siguiente URL. Esta URL is unicamente para tí — no la compartas con nadie, si alguien más lo tiene puede ingresar el feedback a tu nombre. Esta URL será la misma durante todo el torneo, así que te recomendamos ponerla en tus favoritos.\n"
+"En el %(tournament)s, estamos usando un sistema de retroalimentación en linea para calificar a los jueces, este estará disponible en el siguiente link. Este link es para su uso exclusivo — no lo comparta con nadie más, si alguien más lo tiene podrá ingresar el resultado por usted. Este link será el mismo durante todo el torneo, así que le recomendamos guardar la dirección en favoritos.\n"
 "\n"
-"Tu URL privada para cargar tus feedbacks es:\n"
+"El link para cargar su feedback es:\n"
 "%(url)s"
 
 #: privateurls/views.py:328
 msgid "There was a problem sending private feedback URLs to adjudicators."
 msgstr ""
-"Hubo un problema al enviar los URLs con los feedbacks privados a los "
-"adjudicadores"
+"Hubo un problema al enviar el link con los feedbacks a los adjudicadores."
 
 #. Translators: This goes in the "speakers_phrase" variable in "E-mails with
 #. private feedback URLs were sent..."
@@ -428,8 +427,8 @@ msgstr[1] ""
 #, python-format
 msgid "%(nadjudicators)d adjudicator"
 msgid_plural "%(nadjudicators)d adjudicators"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(nadjudicators)djueces"
+msgstr[1] "%(nadjudicators)d jueces"
 
 #: privateurls/views.py:338
 #, python-format
@@ -437,5 +436,5 @@ msgid ""
 "E-mails with private feedback URLs were sent to %(speakers_phrase)s and "
 "%(adjudicators_phrase)s."
 msgstr ""
-"Los e-mails con los URLs para acceder a los feedbacks privados fueron "
+"Los e-mails con los links para acceder a los feedbacks privados fueron "
 "enviados a %(speakers_phrase)s y a %(adjudicators_phrase)s"
